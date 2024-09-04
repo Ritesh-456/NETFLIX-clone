@@ -1,0 +1,237 @@
+@media (max-width: 1450px) {
+    nav {
+        padding: 0rem 4rem;
+    }
+
+    nav>img {
+        width: 19vw;
+    }
+
+    nav>ul>li>select#language {
+        height: 4vh;
+        width: 12vw;
+        font-size: 1.5rem;
+    }
+
+    nav>ul>li>a {
+        height: 4vh;
+        width: 8.5vw;
+        font-size: 1.5rem;
+    }
+
+    /* 
+    main>.section1 {
+        height: 85vh;
+    }
+
+    .bgimage img {
+        height: 85vh;
+    } */
+
+    .para>p:first-child {
+        font-size: 5vw;
+    }
+
+    .para>p:nth-child(2) {
+        font-size: 5vw;
+    }
+
+    .para>p:nth-child(3) {
+        font-size: 2.1vw;
+    }
+
+    .para>p:nth-child(4) {
+        font-size: 1.7vw;
+    }
+
+    .data>div>input {
+        width: 48vw;
+    }
+
+    .data>div>button {
+        width: 14vw;
+        font-size: 1.8vw;
+    }
+
+    .data>div>button>img {
+        width: 3vw;
+    }
+
+    .section4>.para>p {
+        font-size: 1.1vw;
+    }
+
+    .section4>.data>div>button {
+        width: 48vw;
+    }
+
+    .section4>.data>div>button {
+        width: 14vw;
+        font-size: 1.8vw;
+    }
+}
+
+@media (max-width: 650px) {
+    nav {
+        padding: 0rem 2rem;
+    }
+
+    nav>img {
+        width: 24vw;
+    }
+
+    nav>ul>li>select#language {
+        height: 3.5vh;
+        width: 18vw;
+        font-size: 1.8rem;
+    }
+
+    nav>ul>li>a {
+        height: 3.5vh;
+        width: 17vw;
+        font-size: 1.8rem;
+    }
+
+    .para>p:first-child {
+        font-size: 5.5vw;
+    }
+
+    .para>p:nth-child(2) {
+        font-size: 5.5vw;
+    }
+
+    .para>p:nth-child(3) {
+        font-size: 2.5vw;
+    }
+
+    .para>p:nth-child(4) {
+        font-size: 1.8vw;
+    }
+
+    .data>div>input {
+        height: 5vh;
+        width: 48vw;
+    }
+
+    .data>div>button {
+        height: 5vh;
+        width: 17vw;
+        font-size: 2vw;
+    }
+
+    .trending {
+        padding: 1rem 0rem 2.5rem 3rem;
+    }
+
+    .trending>p {
+        font-size: 2rem;
+    }
+
+    .section2>.trending>ul>li>select#country {
+        height: 4rem;
+        width: 9rem;
+        font-size: 1.6rem;
+    }
+
+    .section2>.trending>ul>li>select#language {
+        height: 4rem;
+        width: 9rem;
+        font-size: 1.6rem;
+    }
+
+    .image {
+        height: 19rem;
+        width: 13rem;
+    }
+    .section3>.reason>p {
+        padding: 1rem 0rem 2.5rem 3rem;
+        font-size: 2rem;
+    }
+    .box {
+        height: 24rem;
+        width: 19.7rem;
+    }
+
+    .section4>.para>p {
+        font-size: 1.7vw;
+    }
+
+    .section4>.data>div>input {
+        height: 5vh;
+        width: 48vw;
+    }
+
+    .section4>.data>div>button {
+        height: 5vh;
+        width: 17vw;
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 500px) {
+    header {
+        padding: 0rem;
+    }
+
+    nav {
+        padding: 0rem 2rem;
+    }
+
+    nav>img {
+        width: 24vw;
+    }
+
+    nav>ul>li>select#language {
+        height: 3.5vh;
+        width: 25vw;
+        font-size: 1.3rem;
+    }
+
+    nav>ul>li>a {
+        height: 3.5vh;
+        width: 17vw;
+        font-size: 1.3rem;
+    }
+
+    .para>p:first-child {
+        font-size: 6.2vw;
+    }
+
+    .para>p:nth-child(2) {
+        font-size: 6.2vw;
+    }
+
+    .para>p:nth-child(3) {
+        font-size: 3vw;
+    }
+
+    .para>p:nth-child(4) {
+        font-size: 2.3vw;
+    }
+
+    .data>div>input {
+        height: 4vh;
+        width: 50vw;
+    }
+
+    .data>div>button {
+        height: 4vh;
+        width: 17vw;
+        font-size: 2vw;
+    }
+
+    .section4>.para>p {
+        font-size: 1.7vw;
+    }
+
+    .section4>.data>div>input {
+        height: 4vh;
+        width: 48vw;
+    }
+
+    .section4>.data>div>button {
+        height: 4vh;
+        width: 17vw;
+        font-size: 2vw;
+    }
+}

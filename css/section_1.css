@@ -1,0 +1,111 @@
+html {
+    font-size: 70%;
+}
+
+
+main>.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    z-index: 100;
+}
+
+.bgimage img {
+    position: absolute;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    /* opacity: 0.5; */
+    filter: brightness(0.25);
+    inset: 0;
+}
+
+
+.section1-container .para {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.para>p:first-child {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.5vw;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    line-height: 3.125rem;
+}
+
+.para>p:nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.5vw;
+    font-weight: 700;
+    letter-spacing: .1rem;
+}
+
+.para>p:nth-child(3) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 400;
+    padding: .5rem 0rem;
+}
+
+.para>p:nth-child(4) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    padding: 1rem 0rem 0rem 0rem;
+}
+
+.section1-container .data>div {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem 0.5rem;
+    padding: 1.063rem 0.438rem 7.125rem 0.438rem;
+}
+
+.data>div>input {
+    height: 5.5vh;
+    width: 34vw;
+    background-color: rgb(149 177 211 / 29%);
+    border: 0.063rem solid rgba(128, 128, 128, 0.265);
+    border-radius: 0.438rem;
+    font-size: 16rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.data>div>input[type="text"] {
+    color: white;
+    font-size: 1.125rem;
+    padding: 0rem 0.5rem;
+}
+
+.data>div>button {
+    height: 5.5vh;
+    width: 10vw;
+    border: none;
+    border-radius: 0.438rem;
+    font-size: 1.2vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: red;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 0.5rem; */
+}
+
+.data>div>button>img {
+    vertical-align: middle;
+    padding-left: 0.25rem;
+    width: 2vw;
+}

@@ -1,0 +1,112 @@
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid red; */
+    padding: 2vw 4vw;
+}
+
+.section3>.reason>p {
+    color: white;
+    padding: 1rem 0rem 2.5rem 6rem;
+    font-family: 'poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* .section3>.infobox {
+
+} */
+
+.section3>.infobox>.box4 {
+    padding: 1.25rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.box {
+    /* margin: 0 auto; */
+    max-width: 80vw;
+    height: 28rem;
+    width: 22.75rem;
+    background-image: linear-gradient(to bottom, #01016dc1, #64001944);
+    overflow: hidden;
+    border-radius: 1.563rem;
+    position: relative;
+}
+
+.box>p:first-child {
+    padding: 1.563rem 0.938rem 0rem 0.938rem;
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.563rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.box>p:nth-child(2) {
+    padding: 0.813rem 0.938rem 0rem 0.938rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'poppins', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.box>img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 1.375rem 0.625rem 0rem 1.125rem;
+    height: 5.813rem;
+    width: 8.625rem;
+}
+
+/* FAQ starts */
+
+.faq {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 85vw;
+    margin: 0 auto;
+}
+
+.faq>p {
+    display: flex;
+    padding: 1rem 0;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.faq>.q1 {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    max-width: 85vw;
+    margin-top: 1rem;
+    padding: 0 2rem;
+    background-color: rgb(43 43 43);
+}
+
+.faq>.q1:hover {
+    background-color: rgb(69, 68, 68);
+}
+
+.faq>.q1>p {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.faq>.q1>img {
+    display: flex;
+    align-items: center;
+    height: 5.063erm;
+    width: 2.563erm;
+}
